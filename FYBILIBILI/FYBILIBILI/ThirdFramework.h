@@ -20,6 +20,11 @@
 
 #import "UINavigationController+FDFullscreenPopGesture.h"
 
+// RAC
+#import "ReactiveCocoa.h"
+#import "NSObject+RACKVOWrapper.h"
+#import "RACReturnSignal.h"
+
 @interface ThirdFramework : NSObject
 
 @end

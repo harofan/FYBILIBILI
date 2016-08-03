@@ -29,6 +29,9 @@
 #define FYScreenW [UIScreen mainScreen].bounds.size.width
 #define FYScreenH [UIScreen mainScreen].bounds.size.height
 
+//通知中心
+#define FYNotifiationCenter [NSNotificationCenter defaultCenter]
+
 
 #pragma mark - 常量 -
 
@@ -50,6 +53,13 @@
 #define FYTabbarImageInset 5
 
 #pragma mark - 请求地址 -
+
+#pragma mark - 通知 -
+
+/** 轮播图将要开始拖动发出的通知 */
+NSString* const kBannerViewWillBeginDraggingNotification = @"kBannerViewWillBeginDraggingNotification";
+/** 轮播图结束滑动发出的通知 */
+NSString* const kBannerViewDidEndDeceleratingNotification = @"kBannerViewDidEndDeceleratingNotification";
 
 
 
