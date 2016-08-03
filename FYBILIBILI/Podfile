@@ -7,15 +7,16 @@ target 'FYBILIBILI' do
 
   # Pods for FYBILIBILI
 
-	pod 'Masonry'
-	pod 'ReactiveCocoa', '~> 4.1.0'
-	pod 'AFNetworking'
-	pod 'SVProgressHUD'
-	pod 'YYKit'
-    	pod 'SDWebImage'
-    	pod 'MJRefresh'
-    	pod 'FMDB'
-	pod 'pop'
+pod 'Masonry'
+pod 'ReactiveCocoa', '~> 4.1.0'
+pod 'AFNetworking'
+pod 'SVProgressHUD'
+pod 'YYKit'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'FMDB'
+pod 'pop'
+pod 'FDFullscreenPopGesture'
 
 
 end

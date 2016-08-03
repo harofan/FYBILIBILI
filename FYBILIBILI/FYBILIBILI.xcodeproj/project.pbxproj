@@ -14,6 +14,12 @@
 		062202621D51C0420065FB2A /* FYDiscoverVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062202601D51C0420065FB2A /* FYDiscoverVC.xib */; };
 		062202661D51C05B0065FB2A /* FYCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 062202641D51C05B0065FB2A /* FYCategoryVC.m */; };
 		062202671D51C05B0065FB2A /* FYCategoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062202651D51C05B0065FB2A /* FYCategoryVC.xib */; };
+		062202811D51C9140065FB2A /* FYLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0622027F1D51C9140065FB2A /* FYLiveVC.m */; };
+		062202821D51C9140065FB2A /* FYLiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062202801D51C9140065FB2A /* FYLiveVC.xib */; };
+		062202861D51C9340065FB2A /* FYBangumiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 062202841D51C9340065FB2A /* FYBangumiVC.m */; };
+		062202871D51C9340065FB2A /* FYBangumiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062202851D51C9340065FB2A /* FYBangumiVC.xib */; };
+		062202901D51C9A30065FB2A /* FYRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0622028E1D51C9A30065FB2A /* FYRecommendVC.m */; };
+		062202911D51C9A30065FB2A /* FYRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0622028F1D51C9A30065FB2A /* FYRecommendVC.xib */; };
 		068444881D508F27000347D8 /* FYLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 068444861D508F27000347D8 /* FYLaunchVC.m */; };
 		068444891D508F27000347D8 /* FYLaunchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068444871D508F27000347D8 /* FYLaunchVC.xib */; };
 		069BF9561D5046CA001C599D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069BF9551D5046CA001C599D /* main.m */; };
@@ -42,6 +48,15 @@
 		062202631D51C05B0065FB2A /* FYCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYCategoryVC.h; sourceTree = "<group>"; };
 		062202641D51C05B0065FB2A /* FYCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYCategoryVC.m; sourceTree = "<group>"; };
 		062202651D51C05B0065FB2A /* FYCategoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYCategoryVC.xib; sourceTree = "<group>"; };
+		0622027E1D51C9140065FB2A /* FYLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLiveVC.h; sourceTree = "<group>"; };
+		0622027F1D51C9140065FB2A /* FYLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLiveVC.m; sourceTree = "<group>"; };
+		062202801D51C9140065FB2A /* FYLiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYLiveVC.xib; sourceTree = "<group>"; };
+		062202831D51C9340065FB2A /* FYBangumiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBangumiVC.h; sourceTree = "<group>"; };
+		062202841D51C9340065FB2A /* FYBangumiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYBangumiVC.m; sourceTree = "<group>"; };
+		062202851D51C9340065FB2A /* FYBangumiVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYBangumiVC.xib; sourceTree = "<group>"; };
+		0622028D1D51C9A30065FB2A /* FYRecommendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYRecommendVC.h; sourceTree = "<group>"; };
+		0622028E1D51C9A30065FB2A /* FYRecommendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYRecommendVC.m; sourceTree = "<group>"; };
+		0622028F1D51C9A30065FB2A /* FYRecommendVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYRecommendVC.xib; sourceTree = "<group>"; };
 		068444851D508F27000347D8 /* FYLaunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLaunchVC.h; sourceTree = "<group>"; };
 		068444861D508F27000347D8 /* FYLaunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLaunchVC.m; sourceTree = "<group>"; };
 		068444871D508F27000347D8 /* FYLaunchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYLaunchVC.xib; sourceTree = "<group>"; };
@@ -208,6 +223,142 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		062202691D51C6400065FB2A /* SubVC */ = {
+			isa = PBXGroup;
+			children = (
+				062202791D51C7690065FB2A /* recommend(推荐) */,
+				0622026F1D51C7200065FB2A /* live(直播) */,
+				0622026A1D51C7070065FB2A /* Bangumi(番剧) */,
+			);
+			name = SubVC;
+			sourceTree = "<group>";
+		};
+		0622026A1D51C7070065FB2A /* Bangumi(番剧) */ = {
+			isa = PBXGroup;
+			children = (
+				0622026B1D51C7070065FB2A /* Controllers */,
+				0622026C1D51C7070065FB2A /* Model */,
+				0622026D1D51C7070065FB2A /* Other */,
+				0622026E1D51C7070065FB2A /* View */,
+			);
+			path = "Bangumi(番剧)";
+			sourceTree = "<group>";
+		};
+		0622026B1D51C7070065FB2A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				062202831D51C9340065FB2A /* FYBangumiVC.h */,
+				062202841D51C9340065FB2A /* FYBangumiVC.m */,
+				062202851D51C9340065FB2A /* FYBangumiVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0622026C1D51C7070065FB2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0622026D1D51C7070065FB2A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0622026E1D51C7070065FB2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0622026F1D51C7200065FB2A /* live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				062202701D51C7200065FB2A /* Controllers */,
+				062202711D51C7200065FB2A /* Model */,
+				062202721D51C7200065FB2A /* Other */,
+				062202731D51C7200065FB2A /* View */,
+			);
+			path = "live(直播)";
+			sourceTree = "<group>";
+		};
+		062202701D51C7200065FB2A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0622027E1D51C9140065FB2A /* FYLiveVC.h */,
+				0622027F1D51C9140065FB2A /* FYLiveVC.m */,
+				062202801D51C9140065FB2A /* FYLiveVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		062202711D51C7200065FB2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		062202721D51C7200065FB2A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		062202731D51C7200065FB2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		062202791D51C7690065FB2A /* recommend(推荐) */ = {
+			isa = PBXGroup;
+			children = (
+				0622027A1D51C7690065FB2A /* Controllers */,
+				0622027B1D51C7690065FB2A /* Model */,
+				0622027C1D51C7690065FB2A /* Other */,
+				0622027D1D51C7690065FB2A /* View */,
+			);
+			path = "recommend(推荐)";
+			sourceTree = "<group>";
+		};
+		0622027A1D51C7690065FB2A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0622028D1D51C9A30065FB2A /* FYRecommendVC.h */,
+				0622028E1D51C9A30065FB2A /* FYRecommendVC.m */,
+				0622028F1D51C9A30065FB2A /* FYRecommendVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0622027B1D51C7690065FB2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0622027C1D51C7690065FB2A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0622027D1D51C7690065FB2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		068444821D508E58000347D8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +490,7 @@
 		06C4E8FD1D50A4990018D67B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				062202691D51C6400065FB2A /* SubVC */,
 				06C4E9061D50A4D10018D67B /* FYHomeVC.h */,
 				06C4E9071D50A4D10018D67B /* FYHomeVC.m */,
 				06C4E9081D50A4D10018D67B /* FYHomeVC.xib */,
@@ -501,9 +653,12 @@
 				068444891D508F27000347D8 /* FYLaunchVC.xib in Resources */,
 				069BF9641D5046CA001C599D /* LaunchScreen.storyboard in Resources */,
 				06C4E90A1D50A4D10018D67B /* FYHomeVC.xib in Resources */,
+				062202911D51C9A30065FB2A /* FYRecommendVC.xib in Resources */,
+				062202821D51C9140065FB2A /* FYLiveVC.xib in Resources */,
 				069BF9611D5046CA001C599D /* Assets.xcassets in Resources */,
 				062202621D51C0420065FB2A /* FYDiscoverVC.xib in Resources */,
 				06C4E90F1D50A4E70018D67B /* FYMeVC.xib in Resources */,
+				062202871D51C9340065FB2A /* FYBangumiVC.xib in Resources */,
 				0622025D1D51C0280065FB2A /* FYAttensionVC.xib in Resources */,
 				062202671D51C05B0065FB2A /* FYCategoryVC.xib in Resources */,
 			);
@@ -565,6 +720,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				062202611D51C0420065FB2A /* FYDiscoverVC.m in Sources */,
+				062202811D51C9140065FB2A /* FYLiveVC.m in Sources */,
 				06CC9ECC1D506B080001FB5D /* ThirdFramework.m in Sources */,
 				069BF9591D5046CA001C599D /* AppDelegate.m in Sources */,
 				06C4E9091D50A4D10018D67B /* FYHomeVC.m in Sources */,
@@ -572,9 +728,11 @@
 				068444881D508F27000347D8 /* FYLaunchVC.m in Sources */,
 				0622025C1D51C0280065FB2A /* FYAttensionVC.m in Sources */,
 				062202661D51C05B0065FB2A /* FYCategoryVC.m in Sources */,
+				062202861D51C9340065FB2A /* FYBangumiVC.m in Sources */,
 				062202581D51BF7D0065FB2A /* FYViewController.m in Sources */,
 				069BF9561D5046CA001C599D /* main.m in Sources */,
 				06C4E9131D50A85E0018D67B /* FYNavigationController.m in Sources */,
+				062202901D51C9A30065FB2A /* FYRecommendVC.m in Sources */,
 				06C4E90E1D50A4E70018D67B /* FYMeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

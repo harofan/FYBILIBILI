@@ -18,6 +18,8 @@
 
 #import <YYKit/YYKit.h>
 
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
 @interface ThirdFramework : NSObject
 
 @end
