@@ -16,6 +16,7 @@
 //番剧
 #import "FYBangumiVC.h"
 
+
 @interface FYHomeVC ()
 
 @end
@@ -36,6 +37,16 @@
     
     //添加所有子控制器
     [self addsubVC];
+    
+    [self setUpTitleGradient:^(BOOL *isShowTitleGradient, YZTitleColorGradientStyle *titleColorGradientStyle, CGFloat *startR, CGFloat *startG, CGFloat *startB, CGFloat *endR, CGFloat *endG, CGFloat *endB) {
+        // 字体是否渐变
+        *isShowTitleGradient = YES;
+        // 颜色渐变样式
+        *titleColorGradientStyle = YZTitleColorGradientStyleFill;
+        //开始颜色,取值范围0~1
+        
+        //完成颜色
+    }];
 }
 
 #pragma mark - 搭建子控制器 -

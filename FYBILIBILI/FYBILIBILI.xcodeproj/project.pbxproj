@@ -20,6 +20,8 @@
 		062202871D51C9340065FB2A /* FYBangumiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 062202851D51C9340065FB2A /* FYBangumiVC.xib */; };
 		062202901D51C9A30065FB2A /* FYRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0622028E1D51C9A30065FB2A /* FYRecommendVC.m */; };
 		062202911D51C9A30065FB2A /* FYRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0622028F1D51C9A30065FB2A /* FYRecommendVC.xib */; };
+		062202941D51DBD00065FB2A /* FYTitleLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 062202931D51DBD00065FB2A /* FYTitleLable.m */; };
+		062202981D51DE900065FB2A /* FYFlowlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 062202971D51DE900065FB2A /* FYFlowlayout.m */; };
 		068444881D508F27000347D8 /* FYLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 068444861D508F27000347D8 /* FYLaunchVC.m */; };
 		068444891D508F27000347D8 /* FYLaunchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068444871D508F27000347D8 /* FYLaunchVC.xib */; };
 		069BF9561D5046CA001C599D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069BF9551D5046CA001C599D /* main.m */; };
@@ -57,6 +59,11 @@
 		0622028D1D51C9A30065FB2A /* FYRecommendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYRecommendVC.h; sourceTree = "<group>"; };
 		0622028E1D51C9A30065FB2A /* FYRecommendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYRecommendVC.m; sourceTree = "<group>"; };
 		0622028F1D51C9A30065FB2A /* FYRecommendVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYRecommendVC.xib; sourceTree = "<group>"; };
+		062202921D51DBD00065FB2A /* FYTitleLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTitleLable.h; sourceTree = "<group>"; };
+		062202931D51DBD00065FB2A /* FYTitleLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTitleLable.m; sourceTree = "<group>"; };
+		062202951D51DE090065FB2A /* FYViewControllerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYViewControllerHeader.h; sourceTree = "<group>"; };
+		062202961D51DE900065FB2A /* FYFlowlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFlowlayout.h; sourceTree = "<group>"; };
+		062202971D51DE900065FB2A /* FYFlowlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFlowlayout.m; sourceTree = "<group>"; };
 		068444851D508F27000347D8 /* FYLaunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLaunchVC.h; sourceTree = "<group>"; };
 		068444861D508F27000347D8 /* FYLaunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLaunchVC.m; sourceTree = "<group>"; };
 		068444871D508F27000347D8 /* FYLaunchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYLaunchVC.xib; sourceTree = "<group>"; };
@@ -568,6 +575,11 @@
 				06C4E9121D50A85E0018D67B /* FYNavigationController.m */,
 				062202561D51BF7D0065FB2A /* FYViewController.h */,
 				062202571D51BF7D0065FB2A /* FYViewController.m */,
+				062202951D51DE090065FB2A /* FYViewControllerHeader.h */,
+				062202921D51DBD00065FB2A /* FYTitleLable.h */,
+				062202931D51DBD00065FB2A /* FYTitleLable.m */,
+				062202961D51DE900065FB2A /* FYFlowlayout.h */,
+				062202971D51DE900065FB2A /* FYFlowlayout.m */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -722,6 +734,7 @@
 				062202611D51C0420065FB2A /* FYDiscoverVC.m in Sources */,
 				062202811D51C9140065FB2A /* FYLiveVC.m in Sources */,
 				06CC9ECC1D506B080001FB5D /* ThirdFramework.m in Sources */,
+				062202981D51DE900065FB2A /* FYFlowlayout.m in Sources */,
 				069BF9591D5046CA001C599D /* AppDelegate.m in Sources */,
 				06C4E9091D50A4D10018D67B /* FYHomeVC.m in Sources */,
 				06C4E8FB1D50A1E00018D67B /* FYTabbarVC.m in Sources */,
@@ -729,6 +742,7 @@
 				0622025C1D51C0280065FB2A /* FYAttensionVC.m in Sources */,
 				062202661D51C05B0065FB2A /* FYCategoryVC.m in Sources */,
 				062202861D51C9340065FB2A /* FYBangumiVC.m in Sources */,
+				062202941D51DBD00065FB2A /* FYTitleLable.m in Sources */,
 				062202581D51BF7D0065FB2A /* FYViewController.m in Sources */,
 				069BF9561D5046CA001C599D /* main.m in Sources */,
 				06C4E9131D50A85E0018D67B /* FYNavigationController.m in Sources */,
