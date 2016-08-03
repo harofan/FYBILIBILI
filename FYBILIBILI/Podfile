@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'FYBILIBILI' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+ use_frameworks!
+
+  # Pods for FYBILIBILI
+
+	pod 'Masonry'
+	pod 'ReactiveCocoa', '~> 4.1.0'
+	pod 'AFNetworking'
+	pod 'SVProgressHUD'
+	pod 'YYKit'
+    	pod 'SDWebImage'
+    	pod 'MJRefresh'
+    	pod 'FMDB'
+	pod 'pop'
+
+
+end

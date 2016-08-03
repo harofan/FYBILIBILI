@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  FYBILIBILI
+//
+//  Created by fy on 16/8/2.
+//  Copyright © 2016年 LY. All rights reserved.
+//
+
+
+//第三方框架
+#import "ThirdFramework.h"
+
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#pragma mark - 宏 -
+
+#define FYScreenSize [UIScreen mainScreen].bounds
+
+
+#pragma mark - 常量 -
+
+
+#pragma mark - 字体 -
+
+
+
+#pragma mark - 颜色 -
+
+#define FYMainColor [UIColor colorWithRed:0.89f green:0.49f blue:0.61f alpha:1.00f]
+
+#pragma mark - 大小 -
+
+
+
+#pragma mark - 请求地址 -
+
+
+
+#endif /* PrefixHeader_pch */
