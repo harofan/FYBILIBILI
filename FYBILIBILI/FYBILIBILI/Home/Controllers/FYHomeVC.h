@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FYHomeVC : UIViewController
+@interface FYHomeVC : FYViewController
 
 @end

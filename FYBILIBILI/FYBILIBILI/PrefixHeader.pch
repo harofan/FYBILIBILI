@@ -11,6 +11,12 @@
 #import "ThirdFramework.h"
 
 
+//自定义UI控件
+#import "FYNavigationController.h"
+
+#import "FYViewController.h"
+
+
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
@@ -29,11 +35,13 @@
 
 #pragma mark - 颜色 -
 
+//主格调颜色
 #define FYMainColor [UIColor colorWithRed:0.89f green:0.49f blue:0.61f alpha:1.00f]
 
 #pragma mark - 大小 -
 
-
+//tabbar图片上下偏移量
+#define FYTabbarImageInset 5
 
 #pragma mark - 请求地址 -
 
