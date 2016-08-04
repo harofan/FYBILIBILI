@@ -86,9 +86,6 @@
     //下划线平均分割
     self.isBisectedWidthUnderLineAndTitle = YES;
     
-    @weakify(self);
-    
-//    [FYNotifiationCenter rac_addObserverForName:kBannerViewWillBeginDraggingNotification object:nil].
     
     
 }
